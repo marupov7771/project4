@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* header */
+
+header{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .header_links nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+}
+
+header .header_links nav ul li a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #444444;
+}
+
+/* header end */
+
+/* container */
+
+.container {
+    width: 100%;
+    height: 90vh;
+    background-image: url(./imge/fon.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .text{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .text h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 30px;
+    color: rgb(88, 87, 87);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid grey;
+    color:gray;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+/* container end */
+/* banner */
+
+.banner{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .item{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .item .box{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .item .box p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FF8A63;
+}
+
+.banner .item .box h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 52px;
+    color: #45525B;
+    padding-right: 50px;
+}
+
+.banner .item .box1{
+    width: 50%;
+    height: 200px;
+}
+
+.banner .item .box1 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: px;
+    color: #333333;
+    padding-bottom: 15px;
+    padding-right:40px;
+}
+
+.banner .item .box1 .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner .item .box1 .logo .imge img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}   
+
+.banner .item .box1 .logo .text h1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+}
+
+.banner .item .box1 .logo .text p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6F7278;
+    letter-spacing: 3px;
+}
+
+/* banner end */
+
+/* choose */
+
+.choose{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose .text{
+    width: 600px;
+    height: 114px;
+}
+
+.choose .text h2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FF8A63;
+}
+
+.choose .text h1{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #45525B;
+}
+
+.choose .text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #6F7278;
+    padding: 0 40px;
+    margin-top: 10px;
+}
+
+.choose .box .imge img{
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.choose .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.choose .box .cards {
+    width: 300px;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.choose .box .cards .card{
+    width: 200px;
+    height: 160px;
+}
+
+.choose .box .cards .card .icon{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #45525B;
+    color: #fff;
+}
+
+.choose .box .cards .card h1{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #45525B;
+    padding-top: 10px;
+}
+
+.choose .box .cards .card p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6F7278;
+}
+
+/* choose end */
+
+/* imge */
+
+.fon img{
+    width: 100%;
+    height: 628px;
+}
